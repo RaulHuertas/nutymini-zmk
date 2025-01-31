@@ -3,7 +3,7 @@ id: nutymini
 name: NutyMini
 type: shield
 url: https://github.com/RaulHuertas/nutymini-zmk/
-requires: [seeduino_xiao_ble]
+requires: [seeeduino_xiao_ble]
 exposes: []
 features:
   - keys
