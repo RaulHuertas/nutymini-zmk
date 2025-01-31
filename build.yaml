@@ -20,9 +20,9 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: chipper_left
+    shield: nutymini_left
   - board: seeeduino_xiao_ble
-    shield: chipper_right
+    shield: nutymini_right
 
 
 
