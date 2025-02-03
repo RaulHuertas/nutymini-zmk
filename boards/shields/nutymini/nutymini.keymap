@@ -6,7 +6,8 @@
 #include "../../../miryoku/miryoku.dtsi"
 
 / {
-  chosen {
-    zmk,matrix_transform = &default_transform;
-  };
+  //chosen {
+  //  zmk,matrix_transform = &default_transform;
+  //};
 };
+
