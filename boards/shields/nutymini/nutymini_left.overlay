@@ -22,5 +22,6 @@
     , <&gpio1 12 GPIO_ACTIVE_HIGH>    //Row2
     , <&gpio1 13 GPIO_ACTIVE_HIGH>    //Row3
     ;
+
 };
 
