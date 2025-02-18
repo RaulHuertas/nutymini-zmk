@@ -32,10 +32,10 @@
 
                 raise_layer {
                         bindings = <
-   &kp TAB      &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT           &kp CARET     &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR    &kp BSPC
-   &kp LSHIFT   &trans     &trans    &trans     &trans     &trans              &kp MINUS     &kp EQUAL      &kp LBKT      &kp RBKT    &kp BSLH    &kp GRAVE
-   &kp LCTRL    &trans     &trans    &trans     &trans     &trans              &kp UNDER     &kp PLUS       &kp LBRC      &kp RBRC    &kp PIPE    &none
-   &kp LALT     &kp SPACE  &to 0     &none   &mo 1      &studio_unlock      &studio_unlock &none &none &kp RET &mo 2 &kp RALT
+   &kp TAB      &kp INSERT     &kp HOME    &kp PG_UP     &bt BT_CLR   &bt BT_CLR_ALL           &none            &none       &none     &none         &none        &kp BSPC
+   &kp LSHIFT   &none          &none       &none         &bt BT_NXT   &bt PRV                 &none            &none       &none     &none         &none        &kp none
+   &kp LCTRL    &none          &none       &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2                &none            &none       &none     &none         &none        &none
+   &kp LALT     &kp SPACE      &to 0       &none       &none        &studio_unlock       &studio_unlock   &none       &none     &kp LGUI      &kp ENTER    &ESC
                         >;
                 };
         };
