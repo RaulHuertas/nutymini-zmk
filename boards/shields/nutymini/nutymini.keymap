@@ -39,7 +39,7 @@
    &kp TAB        &kp K_CONTEXT_MENU    &kp HOME       &kp END          &kp APOS          &kp RBRC                &kp N6          &kp N7          &kp N8      &kp N9       &kp N0       &kp DEL
    &kp LSHIFT     &kp LBRC              &kp EQUAL      &kp MINUS        &kp NUHS          &kp F2                  &kp LEFT        &kp DOWN        &kp UP      &kp RIGHT    &kp F3       &kp RSHIFT
    &kp NUBS       &kp F5                &kp F9         &kp F10          &kp F11           &kp F12                 &kp N1          &kp N2          &kp N3      &kp N4       &kp N5       &to 2
-   &mo 3          &kp SPACE             &to 0          &none            &kp C_PP          &studio_unlock          &studio_unlock  &kp C_NEXT      &kp C_PREV   &kp LGUI    &kp ENTER    &kp ESC
+   &mo 3          &kp SPACE             &to 0          &none            &kp C_PP          &studio_unlock          &studio_unlock  &kp C_NEXT      &kp C_PREV  &kp LGUI     &kp ENTER    &kp ESC
                         >;
                 };
 
