@@ -28,6 +28,10 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
 
+  # Add these cmake-args to the peripherals you wish to use with the dongle
+  - board: seeeduino_xiao_ble
+    shield: nutymini
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
 
 
