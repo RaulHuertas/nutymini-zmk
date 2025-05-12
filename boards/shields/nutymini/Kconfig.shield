@@ -6,5 +6,11 @@ config SHIELD_NUTYMINI_LEFT
 config SHIELD_NUTYMINI_RIGHT
     def_bool $(shields_list_contains,nutymini_right)
 
+# No whitespace after the comma or in the keyboard name!
+config SHIELD_NUTYMINI_DONGLE
+    def_bool $(shields_list_contains,nutymini_dongle)
+
+
+
 
 
