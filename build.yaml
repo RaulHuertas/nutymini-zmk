@@ -25,7 +25,7 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: seeeduino_xiao_ble
     shield: nutymini_right rgbled_adapter
-  - board: seeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: nutymini_dongle
 
   - board: seeeduino_xiao_ble
