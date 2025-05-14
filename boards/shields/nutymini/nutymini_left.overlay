@@ -6,6 +6,9 @@
 
 #include "nutymini.dtsi"
 
+#include "nutymini-pinctrl_left.dtsi.h"
+
+
 &kscan0 {
   diode-direction = "row2col";
 	col-gpios
