@@ -6,7 +6,7 @@
 
 #include "nutymini.dtsi"
 
-#include "nutymini-pinctrl_left.dtsi.h"
+#include "nutymini-pinctrl_left.dtsi"
 
 
 &kscan0 {
