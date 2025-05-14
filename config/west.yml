@@ -5,8 +5,6 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     - name: caksoylar  # <-- new entry
       url-base: https://github.com/caksoylar  # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
 
   projects:
     - name: zmk
@@ -16,8 +14,6 @@ manifest:
     - name: zmk-rgbled-widget 
       remote: caksoylar
       revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+      
   self:
     path: config
