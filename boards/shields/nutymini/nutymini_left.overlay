@@ -37,9 +37,9 @@
     clock-frequency = <I2C_BITRATE_STANDARD>;
 
     /* Nodes using the bus go here */
-    oled_128x32: ssd1306@3c {
+    oled_128x32: ssd1306@3d {
         compatible = "solomon,ssd1306fb";
-        reg = <0x3c>;
+        reg = <0x3d>;
         width = <128>;
         height = <32>;
         segment-offset = <0>;
