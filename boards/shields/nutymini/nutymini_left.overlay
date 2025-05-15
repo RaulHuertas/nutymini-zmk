@@ -7,7 +7,6 @@
 #include "nutymini.dtsi"
 
 #include "nutymini-pinctrl_left.dtsi"
-/delete-node/ &oled;
 
 &kscan0 {
   diode-direction = "row2col";
