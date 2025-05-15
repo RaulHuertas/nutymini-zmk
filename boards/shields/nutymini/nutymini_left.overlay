@@ -34,8 +34,6 @@
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
     clock-frequency = <I2C_BITRATE_FAST>;
-    #address-cells = <1>;
-	#size-cells = <0>;
 
     /* Nodes using the bus go here */
     oled_128x32: ssd1306@3c {
