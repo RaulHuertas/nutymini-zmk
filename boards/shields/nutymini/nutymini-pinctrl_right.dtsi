@@ -1,0 +1,75 @@
+
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
+#include "nutymini-layouts.dtsi"
+
+&pinctrl {
+	spi0_default: spi0_default {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 4)>,
+				<NRF_PSEL(SPIM_MISO, 0, 8)>;
+		};
+	};
+	spi0_sleep: spi0_sleep {
+		group1 {
+			psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 4)>,
+				<NRF_PSEL(SPIM_MISO, 0, 8)>;
+			low-power-enable;
+		};
+	};	
+    i2c0_default: i2c0_default {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 5)>,
+                <NRF_PSEL(TWIM_SCL, 1, 11)>;
+        };
+    };
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 5)>,
+                <NRF_PSEL(TWIM_SCL, 1, 11)>;
+            low-power-enable;
+        };
+    };
+};
+
+&i2c0 {
+    compatible = "nordic,nrf-twim"; // I2C controller instead of generic
+    status = "okay";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
+    pinctrl-names = "default", "sleep";
+    clock-frequency = <I2C_BITRATE_FAST>;
+
+    /* Nodes using the bus go here */
+};
+
+
+&xiao_i2c {
+    status = "okay";
+
+    oled_128x32: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        segment-remap;
+        com-invdir;
+        com-sequential;
+        inversion-on;
+        prechargep = <0x22>;
+    };
+};
+
+/ {
+    chosen {
+        zephyr,display = &oled_128x32;
+    };
+};
+
+
