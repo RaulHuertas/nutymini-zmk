@@ -29,7 +29,7 @@
 };
 
 &i2c0 {
-    compatible = "nordic,nrf-twim"; // I2C controller instead of generic
+    compatible = "nordic,nrf-twi"; // I2C controller instead of generic
     status = "okay";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
