@@ -35,7 +35,7 @@
 
         lower_layer {
             bindings = <
-&kp TAB     &kp K_CONTEXT_MENU    &kp HOME        &kp END    &kp APOS        &kp RBKT        &kp N6          &kp N7      &kp N8      &kp N9     &kp N0             &kp DEL
+&kp TAB     &kp PRINTSCREEN       &kp HOME        &kp END    &kp APOS        &kp RBKT        &kp N6          &kp N7      &kp N8      &kp N9     &kp N0             &kp DEL
 &kp LSHIFT  &hm LEFT_SHIFT GRAVE  &hm LALT EQUAL  &kp MINUS  &hm LCTRL NUHS  &kp F2          &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT  &hm LEFT_SHIFT F3  &kp RSHIFT
 &kp NUBS    &kp F5                &kp F9          &kp F10    &kp F11         &kp F12         &kp N1          &kp N2      &kp N3      &kp N4     &kp N5             &to 2
 &mo 3       &kp SPACE             &to 0           &none      &none           &studio_unlock  &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp LGUI   &kp ENTER          &kp K_CONTEXT_MENU
