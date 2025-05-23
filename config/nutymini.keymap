@@ -38,7 +38,7 @@
 &mo 3     &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT        &kp N6          &kp N7      &kp N8      &kp N9     &kp N0            &kp DEL
 &none     &hm LEFT_ALT GRAVE  &hm LEFT_WIN EQUAL  &hm LEFT_SHIFT MINUS  &hm LCTRL NUHS  &kp F2          &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT  &hm RIGHT_ALT F3  &none
 &kp NUBS  &kp F5              &kp F9              &kp F10               &kp F11         &kp F12         &kp N1          &kp N2      &kp N3      &kp N4     &kp N5            &to 2
-&kp TAB   &kp SPACE           &to 0               &none                 &none           &studio_unlock  &studio_unlock  &kp C_NEXT  &kp C_PREV  &none      &kp ENTER         &kp K_CONTEXT_MENU
+&kp TAB   &kp SPACE           &to 0               &none                 &kp C_PLAY      &studio_unlock  &studio_unlock  &kp C_NEXT  &kp C_PREV  &none      &kp ENTER         &kp K_CONTEXT_MENU
             >;
         };
 
