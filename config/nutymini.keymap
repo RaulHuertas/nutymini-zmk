@@ -62,28 +62,28 @@
 
         layer_4 {
             bindings = <
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&none           &kp Q  &kp W  &kp E  &kp R  &kp T           &none           &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G           &none           &none  &none  &none  &none  &none
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B           &none           &none  &none  &none  &none  &to 0
+&none           &mo 6  &mo 5  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_5 {
             bindings = <
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &none           &none           &none  &none  &none  &none  &none
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &none           &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &none           &none           &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_6 {
             bindings = <
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&none  &none             &none             &none             &none             &none           &none           &none  &none  &none  &none  &none
+&none  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)      &none           &none  &none  &none  &none  &none
+&none  &none             &none             &none             &none             &none           &none           &none  &none  &none  &none  &to 0
+&none  &none             &none             &none             &none             &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
