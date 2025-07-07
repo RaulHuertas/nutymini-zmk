@@ -26,7 +26,7 @@
 
         default_layer {
             bindings = <
-&none      &kp Q           &kp W           &kp E             &kp R        &kp T           &kp Y           &kp U         &kp I              &kp O            &kp P               &to 4
+&none      &kp Q           &kp W           &kp E             &kp R        &kp T           &kp Y           &kp U         &kp I              &kp O            &kp P               &none
 &mo 3      &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &none
 &none      &kp Z           &kp X           &kp C             &kp V        &kp B           &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &none
 &lt 2 TAB  &kp SPACE       &mo 1           &to 3             &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &kp ESC
@@ -35,7 +35,7 @@
 
         layer_1 {
             bindings = <
-&none    &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &none
+&none    &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &to 4
 &mo 3    &hm LEFT_ALT GRAVE  &hm LEFT_WIN EQUAL  &hm LEFT_SHIFT MINUS  &hm LCTRL NUHS  &kp NON_US_BACKSLASH  &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &hm RIGHT_ALT F3  &none
 &none    &kp LEFT_BRACKET    &none               &none                 &none           &none                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &none
 &kp TAB  &kp SPACE           &to 0               &kp C_STOP            &kp C_PLAY      &studio_unlock        &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp DELETE  &kp ENTER         &kp K_CONTEXT_MENU
@@ -71,19 +71,19 @@
 
         layer_5 {
             bindings = <
-&none  &kp BACKSPACE  &kp F5        &kp F6        &kp F7        &kp F8          &none           &none  &none  &none  &none  &none
-&none  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &none           &none  &none  &none  &none  &none
-&none  &kp NUMBER_6   &kp N7        &kp N8        &kp N9        &kp N0          &none           &none  &none  &none  &none  &to 0
-&none  &none          &none         &none         &none         &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&kp LEFT_ALT    &kp BACKSPACE  &kp F5        &kp F6        &kp F7        &kp F8          &none           &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &none           &none  &none  &none  &none  &none
+&kp LCTRL       &kp NUMBER_6   &kp N7        &kp N8        &kp N9        &kp N0          &none           &none  &none  &none  &none  &to 0
+&none           &none          &none         &none         &none         &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_6 {
             bindings = <
-&none  &none             &none             &none             &none             &none           &none           &none  &none  &none  &none  &none
-&none  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)      &none           &none  &none  &none  &none  &none
-&none  &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp LC(N9)        &kp LC(N0)      &none           &none  &none  &none  &none  &to 0
-&none  &none             &none             &none             &none             &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&kp LEFT_ALT    &none             &kp LC(F5)        &kp LC(F6)        &kp LC(F7)        &kp LC(F8)      &none           &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)      &none           &none  &none  &none  &none  &none
+&kp LCTRL       &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp LC(N9)        &kp LC(N0)      &none           &none  &none  &none  &none  &to 0
+&none           &none             &none             &none             &none             &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
