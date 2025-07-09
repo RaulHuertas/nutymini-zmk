@@ -35,16 +35,16 @@
 
         layer_1 {
             bindings = <
-&none    &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &to 4
-&mo 3    &hm LEFT_ALT GRAVE  &hm LEFT_WIN EQUAL  &hm LEFT_SHIFT MINUS  &hm LCTRL NUHS  &kp NON_US_BACKSLASH  &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &hm RIGHT_ALT F3  &none
-&none    &kp LEFT_BRACKET    &none               &none                 &none           &none                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &none
+&none    &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &none
+&none    &hm LEFT_ALT GRAVE  &hm LEFT_WIN EQUAL  &hm LEFT_SHIFT MINUS  &hm LCTRL NUHS  &kp NON_US_BACKSLASH  &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &hm RIGHT_ALT F3  &none
+&none    &kp LEFT_BRACKET    &none               &none                 &none           &to 4                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &none
 &kp TAB  &kp SPACE           &to 0               &kp C_STOP            &kp C_PLAY      &studio_unlock        &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp DELETE  &kp ENTER         &kp K_CONTEXT_MENU
             >;
         };
 
         layer_2 {
             bindings = <
-&mo 3    &kp INSERT    &kp PG_UP     &kp PG_DN       &bt BT_CLR        &bt BT_CLR_ALL  &kp F6          &kp F7  &kp F8  &kp F9         &kp F10    &none
+&none    &kp INSERT    &kp PG_UP     &kp PG_DN       &bt BT_CLR        &bt BT_CLR_ALL  &kp F6          &kp F7  &kp F8  &kp F9         &kp F10    &none
 &none    &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none           &none           &none   &none   &kp F11        &kp F12    &none
 &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4    &kp F1          &kp F2  &kp F3  &kp F4         &kp F5     &none
 &kp TAB  &kp SPACE     &to 0         &none           &none             &studio_unlock  &studio_unlock  &none   &none   &kp BACKSPACE  &kp ENTER  &kp ESC
