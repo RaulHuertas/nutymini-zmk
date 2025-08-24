@@ -19,10 +19,10 @@ if SHIELD_NUTYMINI_LEFT || SHIELD_NUTYMINI_RIGHT
 
 config ZMK_SPLIT
     default y
-endif
 
 config ZMK_POINTING
     default y
+
 endif
 
 
