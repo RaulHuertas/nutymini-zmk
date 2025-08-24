@@ -56,7 +56,6 @@
 
 // Overrides for the input-split child node
 &glidepoint_split {
-    compatible = "zmk,input-listener";
     device = <&glidepoint>;
 
     // Optional
