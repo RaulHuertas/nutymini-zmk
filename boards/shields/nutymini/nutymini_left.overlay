@@ -39,11 +39,6 @@
 
 };
 
-// Overrides for the input listener node
-&glidepoint_listener {
-    status = "okay";
-    device = <&glidepoint>;
-};
 
 
 
@@ -56,5 +51,10 @@
 };
 
 
+// Overrides for the input listener node
+&glidepoint_listener {
+    status = "okay";
+    device = <&glidepoint>;
+};
 
 
