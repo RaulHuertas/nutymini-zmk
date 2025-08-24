@@ -39,12 +39,28 @@
     //clock-frequency = <I2C_BITRATE_STANDARD>;
 
 
+    glidepoint: glidepoint@0 {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        // This is for my personal build, where I hand wired the DR pin on the cirque to the ffkb v2 led pin (P0.06)
+        dr-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
+
+        sensitivity = "2x";
+        sleep;
+        //no-taps;
+    };
+
+
 };
 
+// Overrides for the input-split child node
+&glidepoint_split {
+    compatible = "zmk,input-listener";
+    device = <&glidepoint>;
 
-
-&glidepoint  {
-    status = "okay";
+    // Optional
+//    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
 
 
