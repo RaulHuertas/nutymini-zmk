@@ -29,4 +29,32 @@
 
 
 
+&xiao_i2c {
+    status = "okay";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
+    pinctrl-names = "default", "sleep";
+    //clock-frequency = <I2C_BITRATE_STANDARD>;
+
+
+};
+
+// Overrides for the input listener node
+&glidepoint_listener {
+    status = "okay";
+    device = <&glidepoint>;
+};
+
+
+
+/ {
+    glidepoint_listener {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+    };
+};
+
+
+
 
