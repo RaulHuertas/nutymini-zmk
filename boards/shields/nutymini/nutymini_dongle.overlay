@@ -5,18 +5,6 @@
     transform = <&default_transform>;
 };
 
-&xiao_i2c {
-
-    glidepoint: glidepoint@2a {
-        compatible = "cirque,pinnacle";
-        status = "disabled";
-        // This is for my personal build, where I hand wired the DR pin on the cirque to the ffkb v2 led pin (P0.06)
-        data-mode = "relative";
-        sensitivity = "2x";
-        sleep;
-        //no-taps;
-    };
-};
 
 
 / {
