@@ -49,9 +49,9 @@
     };
 };
 
-&glidepoint_split@0 {
-    compatible = "zmk,input-split";
+&glidepoint_split {
     device = <&glidepoint>;
+    //compatible = "zmk,input-split";
     // Optional
     //input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
