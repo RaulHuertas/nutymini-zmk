@@ -9,6 +9,8 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
+#include "nutymini-pinctrl_right.dtsi"
+
 &default_transform {
 	col-offset = <6>;
 };
