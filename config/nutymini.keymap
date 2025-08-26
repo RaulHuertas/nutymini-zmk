@@ -26,10 +26,10 @@
 
         default_layer {
             bindings = <
-&none      &kp Q           &kp W           &kp E             &kp R        &kp T           &kp Y           &kp U         &kp I              &kp O            &kp P               &none
-&none      &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &none
-&none      &kp Z           &kp X           &kp C             &kp V        &kp B           &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &none
-&lt 2 TAB  &lt 3 SPACE     &mo 1           &to 3             &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &kp ESC
+&none      &kp Q           &kp W           &kp E              &kp R            &kp T           &kp Y           &kp U         &kp I              &kp O            &kp P               &none
+&none      &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D   &hm LCTRL F      &kp G           &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &none
+&none      &kp Z           &kp X           &kp C              &kp V            &kp B           &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &none
+&lt 2 TAB  &lt 3 SPACE     &mo 1           &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &kp ESC
             >;
         };
 
