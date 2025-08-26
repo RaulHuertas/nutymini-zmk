@@ -4,7 +4,7 @@ name: NutyMini
 type: shield
 url: https://github.com/RaulHuertas/nutymini-zmk/
 requires: [seeeduino_xiao_ble]
-exposes: [i2c_oled]
+exposes: 
 features:
   - keys
   - studio
