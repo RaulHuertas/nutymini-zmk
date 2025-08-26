@@ -65,6 +65,6 @@
 
 
 &glidepoint_listener {
-//    status = "okay";
+    status = "okay";
 };
 
