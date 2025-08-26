@@ -40,9 +40,9 @@
     status = "okay";
 
     glidepoint: glidepoint@2a {
+        status = "okay";
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
-        status = "okay";
         //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
         dr-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
         data-mode = "relative";
