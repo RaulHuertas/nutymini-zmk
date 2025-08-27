@@ -39,10 +39,12 @@
 };
 
 
-
 &glidepoint_listener {
     status = "okay";
 };
 
 
+&glidepoint_split{
+    status="okay";
+};
 
