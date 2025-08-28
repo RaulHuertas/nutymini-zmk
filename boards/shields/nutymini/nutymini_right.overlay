@@ -44,13 +44,14 @@
         status = "okay";
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
-        //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
+        data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         dr-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         data-mode = "relative";
         sensitivity = "2x";
         sleep;
         //no-taps;
         primary-tap-enable;
+        idle-packets-count = <10>;
     };
 };
 
