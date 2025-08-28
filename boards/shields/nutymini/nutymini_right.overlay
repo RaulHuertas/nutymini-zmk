@@ -45,13 +45,12 @@
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
-        dr-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         data-mode = "relative";
         sensitivity = "2x";
         sleep;
         //no-taps;
-        primary-tap-enable;
-    };
+        primary-tap-enableLOW    };
 };
 
 &glidepoint_split {
