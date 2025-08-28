@@ -4,8 +4,6 @@ if SHIELD_NUTYMINI_LEFT
 config ZMK_KEYBOARD_NAME
     default "NutyMini"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
 endif
 
 if SHIELD_NUTYMINI_RIGHT
@@ -27,16 +25,6 @@ config ZMK_POINTING
     default y
 
 endif
-if SHIELD_NUTYMINI_LEFT || SHIELD_NUTYMINI_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-config ZMK_POINTING
-    default y
-
-endif
-
 
 if SHIELD_NUTYMINI_DONGLE
 
