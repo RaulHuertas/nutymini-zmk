@@ -34,4 +34,6 @@
     pinctrl-names = "default", "sleep";
 };
 
-
+&glidepoint_split {
+    status = "disabled"; 
+}
