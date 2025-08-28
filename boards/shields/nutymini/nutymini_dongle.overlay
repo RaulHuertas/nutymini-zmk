@@ -6,8 +6,6 @@
     transform = <&default_transform>;
 };
 
-
-
 / {
 
     chosen {
@@ -21,8 +19,6 @@
         rows = <0>;
         events = <0>;
     };
-
-
 
     default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";

@@ -8,7 +8,25 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
+if SHIELD_NUTYMINI_RIGHT
 
+config ZMK_POINTING
+    default y
+
+config I2C
+    default y
+
+endif
+
+if SHIELD_NUTYMINI_LEFT || SHIELD_NUTYMINI_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_POINTING
+    default y
+
+endif
 if SHIELD_NUTYMINI_LEFT || SHIELD_NUTYMINI_RIGHT
 
 config ZMK_SPLIT
