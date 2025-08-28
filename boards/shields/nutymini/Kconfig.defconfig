@@ -8,9 +8,6 @@ endif
 
 if SHIELD_NUTYMINI_RIGHT
 
-config ZMK_POINTING
-    default y
-
 config I2C
     default y
 
@@ -31,6 +28,9 @@ if SHIELD_NUTYMINI_DONGLE
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
     default "NutyMini"
+
+config ZMK_POINTING
+    default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
