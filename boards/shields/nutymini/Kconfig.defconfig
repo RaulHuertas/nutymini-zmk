@@ -11,6 +11,9 @@ if SHIELD_NUTYMINI_RIGHT
 config I2C
     default y
 
+config SPI
+    default y
+
 endif
 
 if SHIELD_NUTYMINI_LEFT || SHIELD_NUTYMINI_RIGHT
