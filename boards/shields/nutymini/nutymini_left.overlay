@@ -34,7 +34,4 @@
     pinctrl-names = "default", "sleep";
 };
 
-&glidepoint_listener {
-//    status = "okay";
-};
 
