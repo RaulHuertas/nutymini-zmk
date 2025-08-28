@@ -44,8 +44,8 @@
         status = "okay";
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
-        data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
-        //dr-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
+        //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios= <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
         data-mode = "relative";
         sensitivity = "2x";
         sleep;
