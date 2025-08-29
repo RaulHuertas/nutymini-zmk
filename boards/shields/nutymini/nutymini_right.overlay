@@ -48,7 +48,7 @@
         dr-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         data-mode = "relative";
         sensitivity = "2x";
-        sleep;
+        //sleep;
         no-taps;
         //primary-tap-enable;
     };
