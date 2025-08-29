@@ -42,7 +42,7 @@
     status = "okay";
 
     trackpad: glidepoint@2a { 
-        compatible = "cirque,pinnacle";
+        compatible = "pinnacle";
         status = "okay";
         reg = <0x2a>;
         data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
