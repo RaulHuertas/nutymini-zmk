@@ -56,7 +56,7 @@
 };
 
 &glidepoint_split {
-    device = <&glidepoint>;
+    //device = <&glidepoint>;
     input-processors = <&zip_xy_scaler 1 1>;
     status = "okay";
 };
