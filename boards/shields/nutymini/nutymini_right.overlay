@@ -41,7 +41,7 @@
 &xiao_i2c {
     status = "okay";
 
-    glidepoint: glidepoint@0 { 
+    glidepoint: glidepoint@2a { 
         compatible = "cirque,pinnacle";
         status = "okay";
         reg = <0x2a>;
