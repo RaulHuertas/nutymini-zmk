@@ -41,11 +41,11 @@
     status = "okay";
 
     glidepoint: glidepoint@0 { 
-        status = "okay";
         compatible = "cirque,pinnacle";
+        status = "okay";
         reg = <0x2a>;
         //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
-        dr-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
+        data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         data-mode = "relative";
         sensitivity = "2x";
         sleep;
