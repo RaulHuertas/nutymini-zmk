@@ -8,6 +8,9 @@ endif
 
 if SHIELD_NUTYMINI_RIGHT
 
+config INPUT_PINNACLE
+    default y
+
 config I2C
     default y
 
