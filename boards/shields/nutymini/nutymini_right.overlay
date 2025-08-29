@@ -48,15 +48,17 @@
         //dr-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         data-mode = "relative";
         sensitivity = "2x";
-        //sleep;
-        no-taps;
-        //primary-tap-enable;
+        sleep;
+        //no-taps;
+        primary-tap-enable;
     };
 };
 
 &glidepoint_split {
     device = <&glidepoint>;
-    status = "okay";
 };
 
+&glidepoint_listener {
+    status = "okay"; 
+};
 
