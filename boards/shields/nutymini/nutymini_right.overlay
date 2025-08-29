@@ -41,7 +41,7 @@
 &xiao_i2c {
     status = "okay";
 
-    glidepoint: glidepoint@0 { 
+    trackpad: glidepoint@0 { 
         compatible = "cirque,pinnacle";
         status = "okay";
         reg = <0x2a>;
@@ -56,7 +56,7 @@
 };
 
 &glidepoint_split {
-    device = <&glidepoint>;
+    device = <&trackpad>;
     input-processors = <&zip_xy_scaler 1 1>;
     //status = "disabled";
 };
