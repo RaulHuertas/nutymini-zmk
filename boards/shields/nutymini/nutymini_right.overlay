@@ -51,6 +51,7 @@
         //data-mode = "relative";
         sensitivity = "2x";
         sleep;
+        y-invert;
         //no-taps;
         //primary-tap-enable;
     };
