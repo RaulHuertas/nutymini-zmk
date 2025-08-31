@@ -19,6 +19,7 @@
 			low-power-enable;
 		};
 	};	
+    /*
     i2c0_default: i2c0_default {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 5)>,
@@ -32,13 +33,15 @@
                 <NRF_PSEL(TWIM_SCL, 1, 11)>;
             low-power-enable;
         };
-    };
+    };*/
 };
 
 &xiao_i2c {
+    /*
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
+    */
 };
 
 

@@ -39,7 +39,7 @@
 
 
 &xiao_i2c {
-    compatible = "nordic,nrf-twim";
+    //compatible = "nordic,nrf-twim";
     status = "okay";
     clock-frequency = <I2C_BITRATE_STANDARD>;
     trackpad: glidepoint@2a { 
