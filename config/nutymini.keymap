@@ -14,7 +14,7 @@
 
 
 &glidepoint_listener {
-    input-processors = <&zip_xy_scaler 5 2>;
+    input-processors = <&zip_xy_scaler 4 2>;
 
     scroller {
         layers = <1 3>;
