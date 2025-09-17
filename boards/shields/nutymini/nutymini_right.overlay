@@ -49,7 +49,7 @@
         //data-ready-gpios= <&gpio0 2 (GPIO_ACTIVE_LOW)>;
         dr-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH)>;
         //data-mode = "relative";
-        sensitivity = "1x";
+        sensitivity = "2x";
         //sleep;
         y-invert;
         //no-taps;
