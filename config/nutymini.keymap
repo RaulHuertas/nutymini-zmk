@@ -24,15 +24,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-    };
+ 
 
     keymap {
         compatible = "zmk,keymap";
