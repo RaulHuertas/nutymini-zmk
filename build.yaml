@@ -20,7 +20,7 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: nutymini_dongle rgbled_adapter  
-    snippet: nrf52840-nosd zmk-usb-logging
+    snippet: nrf52840-nosd 
     cmake-args: -DCONFIG_ZMK_STUDIO=y 
 
   - board: seeeduino_xiao_ble
