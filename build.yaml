@@ -19,8 +19,8 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: seeeduino_xiao_ble
-    shield: nutymini_dongle rgbled_adapter zmk-usb-logging 
-    snippet: nrf52840-nosd 
+    shield: nutymini_dongle rgbled_adapter  
+    snippet: nrf52840-nosd zmk-usb-logging
     cmake-args: -DCONFIG_ZMK_STUDIO=y 
 
   - board: seeeduino_xiao_ble
