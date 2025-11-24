@@ -39,7 +39,7 @@
         spi-max-frequency = <4000000>;
 
         /* WS2812 */
-        chain-length = <8>; /* number of LEDs */
+        chain-length = <5>; /* number of LEDs */
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
         color-mapping = <LED_COLOR_ID_GREEN
@@ -63,12 +63,12 @@
         events = <0>;
     };
 
-    ext-power {
-		compatible = "zmk,ext-power-generic";
-		init-delay-ms = <20>;
-		control-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
-        status = "okay";
-	};
+    //ext-power {
+	//	compatible = "zmk,ext-power-generic";
+	//	init-delay-ms = <2>;
+	//	control-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
+    //    status = "okay";
+	//};
 
     default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
