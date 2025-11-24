@@ -45,7 +45,6 @@
         color-mapping = <LED_COLOR_ID_GREEN
                          LED_COLOR_ID_RED
                          LED_COLOR_ID_BLUE>;
-        supply-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
     };
 };
 
@@ -66,7 +65,7 @@
 
     ext-power {
 		compatible = "zmk,ext-power-generic";
-		init-delay-ms = <2>;
+		init-delay-ms = <50>;
 		control-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
         status = "okay";
 	};
