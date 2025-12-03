@@ -12,7 +12,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: nutymini_left rgbled_adapter  
     snippet: nrf52840-nosd  
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
   - board: seeeduino_xiao_ble
     shield: nutymini_right rgbled_adapter
     snippet:  nrf52840-nosd 
