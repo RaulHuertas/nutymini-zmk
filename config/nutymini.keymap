@@ -32,7 +32,7 @@
 &none      &kp Q           &kp W           &kp E             &kp R        &kp T           &kp Y           &kp U         &kp I              &kp O            &kp P               &none
 &none      &hm LEFT_ALT A  &hm LEFT_WIN S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RIGHT_SHIFT K  &hm RIGHT_GUI L  &hm RIGHT_ALT SEMI  &none
 &none      &kp Z           &kp X           &kp C             &kp V        &kp B           &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &none
-&lt 2 TAB  &lt 3 SPACE     &mo 1           &kp C_PLAY        &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &kp ESC
+&lt 2 TAB  &lt 3 SPACE     &mo 1           &kp C_PLAY        &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &lt 8 ESCAPE
             >;
         };
 
@@ -56,10 +56,10 @@
 
         layer_3 {
             bindings = <
-&none    &none      &none  &none  &none      &none           &kp C_MUTE      &kp C_PP         &mkp LCLK          &mkp RCLK        &mkp MCLK       &none
-&none    &none      &none  &none  &mkp LCLK  &mkp RCLK       &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP       &mmv MOVE_RIGHT  &msc SCRL_UP    &none
-&none    &none      &none  &none  &none      &none           &kp CAPSLOCK    &studio_unlock   &msc SCRL_LEFT     &msc SCRL_RIGHT  &msc SCRL_DOWN  &none
-&kp TAB  &kp SPACE  &to 0  &none  &none      &studio_unlock  &studio_unlock  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp BACKSPACE    &kp ENTER       &kp ESC
+&none    &none      &none  &none      &none      &none           &kp C_MUTE      &kp C_PP         &mkp LCLK          &mkp RCLK        &mkp MCLK       &none
+&none    &none      &none  &mkp LCLK  &mkp RCLK  &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP       &mmv MOVE_RIGHT  &msc SCRL_UP    &none
+&none    &none      &none  &none      &none      &none           &kp CAPSLOCK    &studio_unlock   &msc SCRL_LEFT     &msc SCRL_RIGHT  &msc SCRL_DOWN  &none
+&kp TAB  &kp SPACE  &to 0  &none      &none      &studio_unlock  &studio_unlock  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp BACKSPACE    &kp ENTER       &kp ESC
             >;
         };
 
@@ -101,10 +101,10 @@
 
         layer_8 {
             bindings = <
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
+&none  &none              &none         &kp C_STOP  &none       &none           &none           &none  &none  &none  &none  &none
+&none  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PLAY  &kp C_MUTE  &none           &none           &none  &none  &none  &none  &none
+&none  &none              &none         &kp C_PREV  &kp C_NEXT  &none           &none           &none  &none  &none  &none  &none
+&none  &none              &none         &none       &none       &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
