@@ -9,20 +9,21 @@
 # shield: [ "nutymini_left", "nutymini_right" ]
 ---
 include:
+#HALVES
   - board: seeeduino_xiao_ble
     shield: nutymini_left rgbled_adapter  
     snippet: nrf52840-nosd  
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
   - board: seeeduino_xiao_ble
-    shield: nutymini_right rgbled_adapter
+    shield: nutymini_right #rgbled_adapter
     snippet:  nrf52840-nosd 
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-
+#DONGLE
   - board: seeeduino_xiao_ble
     shield: nutymini_dongle rgbled_adapter  
     snippet: nrf52840-nosd 
     cmake-args: -DCONFIG_ZMK_STUDIO=y 
-
+#RESET SETTINGS
   - board: seeeduino_xiao_ble
     shield: settings_reset
     snippet: nrf52840-nosd
