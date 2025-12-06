@@ -29,7 +29,7 @@
 
 &xiao_i2c {
     //compatible = "nordic,nrf-twim"; // I2C controller instead of generic
-    status = "okay";
+    status = "disable";
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";

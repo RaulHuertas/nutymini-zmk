@@ -29,3 +29,8 @@
 		, <&gpio1 15 (GPIO_ACTIVE_HIGH |GPIO_PULL_DOWN)>  //Col5
 		;
 };
+
+
+&xiao_i2c {
+    status = "disable";
+}
