@@ -40,10 +40,10 @@
 
         layer_1 {
             bindings = <
-&none    &kp PRINTSCREEN     &kp HOME            &kp END               &kp APOS        &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &to 4
-&none    &hm LEFT_ALT GRAVE  &hm LEFT_WIN EQUAL  &hm LEFT_SHIFT MINUS  &hm LCTRL NUHS  &kp NON_US_BACKSLASH  &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &hm RIGHT_ALT F3  &none
-&none    &kp LEFT_BRACKET    &none               &none                 &none           &none                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &none
-&kp TAB  &kp SPACE           &to 0               &none                 &kp C_STOP      &studio_unlock        &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp DELETE  &kp ENTER         &kp K_CONTEXT_MENU
+&none    &kp PRINTSCREEN   &kp HOME   &kp END    &kp APOS    &kp RBKT              &kp N6          &kp N7      &kp N8      &kp N9      &kp N0            &to 4
+&none    &kp GRAVE         &kp EQUAL  &kp MINUS  &kp NUHS    &kp NON_US_BACKSLASH  &kp LEFT        &kp DOWN    &kp UP      &kp RIGHT   &hm RIGHT_ALT F3  &none
+&none    &kp LEFT_BRACKET  &none      &none      &none       &none                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &none
+&kp TAB  &kp SPACE         &to 0      &none      &kp C_STOP  &studio_unlock        &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp DELETE  &kp ENTER         &kp K_CONTEXT_MENU
             >;
         };
 
